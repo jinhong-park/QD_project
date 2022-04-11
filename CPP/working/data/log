@@ -1,0 +1,9 @@
+lapack dstev class allocated with N=2
+dstev called with input:
+d[0]=1.000000e+00, e[0]=1.000000e+00
+d[1]=6.123234e-17, e[1]=1.000000e+00
+dstev returned output:
+vecs[0,0]=5.257311e-01 vals[0]=-6.180340e-01
+vecs[1,0]=-8.506508e-01 vals[1]=1.618034e+00
+lapack dstev eigensystem exact with precisions 4.440892e-16
+lapack zgee class allocated with N=2, lwork=4 (max of zgees=4 zgeev=4)

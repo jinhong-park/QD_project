@@ -1,0 +1,47 @@
+#desktop MAC
+#HOME:=$(shell cd ..;pwd)
+HOME=/Users/parkjinhong/Dropbox
+WORKING=$(HOME)/CPP
+
+#WORKING:=$(shell pwd)
+
+VLASTNE=$(WORKING)/my_routines
+VLASTNEL=$(VLASTNE)/auxiliaries.a
+ARPACK=$(WORKING)/arpack
+ARPACKL0=$(ARPACK)/arpack.a
+
+#desktop MAC, virtual server BA
+ARPACKL=$(ARPACKL0) 
+#$(ARPACK)/libarpack_MAC.a
+
+FFTW=$(HOME)
+FFTWL=$(HOME)
+GSL=$(HOME)
+GSLL=$(HOME)
+
+
+.SUFFIXES:	
+
+#CPPCOMPILER=c++ 
+CPPCOMPILER=c++
+CF= -m64 -c -Wall -Wno-unused
+
+F77COMPILER=gfortran
+F77F= -c
+DEBUG0= -O3
+DEBUG1= -ggdb
+
+#default
+PROFILE1= -pg
+
+AR=ar
+ARF=r
+PROFILE=$(PROFILE0)
+DEBUG=$(DEBUG0)
+CPPCOMPILEFLAGS=$(CF) $(DEBUG) $(PROFILE) -I/usr/local/include
+
+#desktop MAC
+CPPLINKFLAGS=$(PROFILE) -L/usr/local/lib -larpack -lgslcblas -lgsl  -lfftw3 -lblas -llapack -lm
+
+F77COMPILEFLAGS=$(F77F) $(DEBUG) $(PROFILE)
+F77LINKFLAGS=$(PROFILE)

@@ -1,0 +1,40 @@
+HOME=/home/stp13092/temp_local
+WORKING=$(HOME)/CPP
+
+VLASTNE=$(WORKING)/my_routines
+VLASTNEL=$(VLASTNE)/auxiliaries.a
+NUMREC=$(WORKING)
+NUMRECL=$(NUMREC)
+ARPACK=$(WORKING)/arpack
+ARPACKL=$(ARPACK)/arpack.a
+FFTW=$(HOME)
+FFTWL=$(HOME)
+GSL=$(HOME)
+GSLL=$(HOME)
+
+MPI=/opt/mpich
+MPIH=$(MPI)/include
+
+
+
+.SUFFIXES:	
+
+CPPCOMPILER=g++
+CF= -c -Wall -Wno-unused
+F77COMPILER=gfortran
+F77F= -c
+DEBUG0= -O3
+DEBUG1= -ggdb
+PROFILE1= -pg
+PROFILE0=
+AR=ar
+ARF=r
+
+PROFILE=$(PROFILE1)
+DEBUG=$(DEBUG0)
+
+CPPCOMPILEFLAGS=$(CF) $(DEBUG) $(PROFILE)
+#CPPLINKFLAGS=$(PROFILE) -larpack -lgsl -lgslcblas -lfftw3 -lblas -llapack -lm
+CPPLINKFLAGS=$(PROFILE) -L$(ARPACK) -lsafe_arpack64 -Wl,--rpath -Wl,$(ARPACK) -lgsl -lgslcblas -lfftw3 -lblas -llapack -lm
+F77COMPILEFLAGS=$(F77F) $(DEBUG) $(PROFILE)
+F77LINKFLAGS=$(PROFILE)

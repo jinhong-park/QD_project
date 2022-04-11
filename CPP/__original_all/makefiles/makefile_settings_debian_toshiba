@@ -1,0 +1,73 @@
+#desktop MAC
+#HOME=/Users/peter/Xfiles
+
+#debian toshiba
+HOME=/home/peter
+
+#suse rgbg
+#HOME=/home/stp13092/temp_local
+
+#virtual server BA
+#HOME=/Users/raith
+
+WORKING=$(HOME)/CPP
+VLASTNE=$(WORKING)/my_routines
+VLASTNEL=$(VLASTNE)/auxiliaries.a
+NUMREC=$(WORKING)
+NUMRECL=$(NUMREC)
+ARPACK=$(WORKING)/arpack
+ARPACKL=$(ARPACK)/arpack.a
+
+#desktop MAC
+#virtual server BA
+#ARPACKL=$(ARPACKL) $(ARPACK)/libarpack_MAC.a
+
+FFTW=$(HOME)
+FFTWL=$(HOME)
+GSL=$(HOME)
+GSLL=$(HOME)
+
+MPI=/opt/mpich
+MPIH=$(MPI)/include
+
+
+.SUFFIXES:	
+
+CPPCOMPILER=g++ 
+CF= -m64 -c -Wall -Wno-unused
+
+#desktop MAC - is not working
+#CF= -ObjC -framework CoreFoundation -Wall -Wno-unused
+
+F77COMPILER=gfortran
+F77F= -c
+DEBUG0= -O3
+DEBUG1= -ggdb
+
+#default
+PROFILE1= -pg
+#desktop MAC - is not working
+#PROFILE1= -finstrument-functions
+
+PROFILE0=
+AR=ar
+ARF=r
+PROFILE=$(PROFILE1)
+DEBUG=$(DEBUG0)
+CPPCOMPILEFLAGS=$(CF) $(DEBUG) $(PROFILE)
+
+#virtual server BA
+#CPPCOMPILEFLAGS=$(CPPCOMPILEFLAGS) -isystem/sw/include
+
+#debian toshiba
+CPPLINKFLAGS=$(PROFILE) -larpack -lgsl -lgslcblas -lfftw3 -lblas -llapack -lm
+#desktop MAC
+#CPPLINKFLAGS=$(PROFILE) -lgsl -lgslcblas -lfftw3 -lblas -llapack -lm -lgfortran
+#virtual server BA
+#CPPLINKFLAGS=$(PROFILE) -L/sw/lib -L/sw/lib/gcc4.6/lib -lgsl -lgslcblas -lfftw3 -lblas -llapack -lm -lgfortran
+#suse rgbg
+#CPPLINKFLAGS=$(PROFILE) -L$(ARPACK) -lsafe_arpack64 -Wl,--rpath -Wl,$(ARPACK) -lgsl -lgslcblas -lfftw3 -lblas -llapack -lm
+
+F77COMPILEFLAGS=$(F77F) $(DEBUG) $(PROFILE)
+F77LINKFLAGS=$(PROFILE)
+

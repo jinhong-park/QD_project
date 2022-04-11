@@ -1,0 +1,135 @@
+file(0): data/Jin/3-test/energies was opened
+file(1): data/Jin/3-test/g-factor was opened
+file(2): data/Jin/3-test/parameters was opened
+apart from the spatial one, 2 degree(s) of freedom considered: spin sigma . The system tag is 'A' and number of components is 4.
+deallocating sorting class (allocated:0)
+allocating and initializing sorting class:
+20 unsorted states will be sorted to 40 positions
+parameters set: p1=0.000000, p2=0.000000
+apart from the spatial one, 2 degree(s) of freedom considered: spin sigma . The system tag is 'A' and number of components is 4.
+reading parameters...apart from the spatial one, 2 degree(s) of freedom considered: spin sigma . The system tag is 'A' and number of components is 4.
+
+
+chosen parameters:
+physical parameters:
+tag		value		dimensionless	unit	description
+B		0.0000e+00	0.0000e+00	Tesla	strenght of magnetic field
+phi_B		0.0000e+00	0.0000e+00	pi	direction of magnetic field: angle phi
+theta_B		5.0000e-01	1.5708e+00	pi	direction of magnetic field: angle theta
+gx		-3.8000e-01	-9.5000e-02	-	g-factor along x
+gy		-3.8000e-01	-9.5000e-02	-	g-factor along y
+gz		-3.8000e-01	-9.5000e-02	-	g-factor along z
+lv		3.0473e+01	5.7586e-01	nm	confining length
+lB		3.0473e+01	5.7586e-01	nm	effective length (derived)
+growth		1.0000e+00	1.0000e+00	-	growth direction
+br		0.0000e+00	0.0000e+00	meVA	strength of Bychkov-Rashba
+lbr		0.0000e+00	0.0000e+00	nm	spin orbit length (BR) (derived)
+dress		0.0000e+00	0.0000e+00	meVA	strength of linear Dresselhaus
+ldress		0.0000e+00	0.0000e+00	nm	spin orbit length (D) (derived)
+dress3		0.0000e+00	0.0000e+00	eVA^3	strength of cubic Dresselhaus
+d		3.2509e+00	6.1434e-02	nm	interdot distance
+d_x		0.0000e+00	0.0000e+00	nm	interdot distance along x (derived)
+d_y		0.0000e+00	0.0000e+00	nm	interdot distance along y (derived)
+phi_d		0.0000e+00	0.0000e+00	pi	interdot orientation: angle phi
+width_z		1.0000e+01	1.8897e-01	nm	width of the well (relaxation)
+T		0.0000e+00	0.0000e+00	K	temperature (relaxation) do not use - is always zero
+Bosc		0.0000e+00	0.0000e+00	Tesla	strength of oscillating magnetic field
+phi_Bosc	0.0000e+00	0.0000e+00	pi	orientation of oscillating magnetic field: angle phi
+theta_Bosc	0.0000e+00	0.0000e+00	pi	orientation of oscillating magnetic field: angle theta
+Eosc		0.0000e+00	0.0000e+00	V/m	strength of oscillating electic field
+phi_Eosc	0.0000e+00	0.0000e+00	pi	orientation of oscillating electric field: angle phi
+ring		0.0000e+00	0.0000e+00	nm	ring radius
+eps0		1.2900e+01	1.2900e+01	-	static dielectric constant
+density		5.3000e+03	8.6216e+11	kg/m3	material density
+cl		5.2900e+03	2.4181e+00	m/s	longitudinal sound velocity
+ct		2.4800e+03	1.1336e+00	m/s	transversal sound velocity
+def		7.0000e+00	2.5725e+05	eV	deformation potential
+piezo		1.4000e+09	5.1449e+13	eV/m	piezoelectric potential
+flat_x		0.0000e+00	0.0000e+00	nm	region extent along x (from -value to value) if geometry==2
+flat_y		0.0000e+00	0.0000e+00	nm	region extent along y (from -value to value) if geometry==2
+exch		0.0000e+00	0.0000e+00	meV	coupling to impurity spins = beta * N_0
+xMn		0.0000e+00	0.0000e+00	-	impurity spins concentration
+ALHO		1.0000e+00	1.0000e+00	-	anisotropic LHO potential? (y/n=1/0)
+nuclear_state	0.0000e+00	0.0000e+00	-	type of nuclear ensemble for 1e diag
+fermi_e		0.0000e+00	0.0000e+00	meV	fermi energy
+Ebias		0.0000e+00	0.0000e+00	V/m	additional potential bias electric field
+m_eff		6.7000e-02	6.7000e-02	m_e	effective mass
+imp_ext		0.0000e+00	0.0000e+00	nm	impurities: extent
+imp_str		0.0000e+00	0.0000e+00	meV	impurities: strength
+imp_num		0.0000e+00	0.0000e+00	-	impurities: number
+wg_x		0.0000e+00	0.0000e+00	nm	waveguide shift x
+wg_y		0.0000e+00	0.0000e+00	nm	waveguide shift y
+wg_width	0.0000e+00	0.0000e+00	nm	waveguide width
+wg_phi		0.0000e+00	0.0000e+00	pi	waveguide azimuth (heading out)
+wg_V		0.0000e+00	0.0000e+00	meV	barrier height
+wg_length	0.0000e+00	0.0000e+00	nm	barrier length
+dot_offset	0.0000e+00	0.0000e+00	meV	potential offset of the dot wrt the lead
+def2		0.0000e+00	0.0000e+00	eV	deformation shear transversal phonon potential
+vf		0.0000e+00	0.0000e+00	m/s	fermi velocity in graphene
+Dg		0.0000e+00	0.0000e+00	meV	graphene gap
+Di		0.0000e+00	0.0000e+00	meV	graphene intrinsic soc
+Dr		0.0000e+00	0.0000e+00	meV	graphene rashba soc
+gr_dd		0.0000e+00	0.0000e+00	nm	graphene mass dd
+gr_w		0.0000e+00	0.0000e+00	nm	graphene mass w
+gr_r0		0.0000e+00	0.0000e+00	nm	graphene mass r0
+gr_V0		0.0000e+00	0.0000e+00	meV	graphene mass V0
+gr_U		0.0000e+00	0.0000e+00	meV	graphene potential U
+pairing		0.0000e+00	0.0000e+00	meV	pairing gap Delta0
+
+computational parameters:
+tag		value		dimensionless	description
+extent		5.0000e+00	5.0000e+00	expand region [lB]
+grid_step	2.0000e-01	2.0000e-01	grid step [lB]
+length_x	1.7065e+02	3.2248e+00	range for x axis [nm] (derived)
+length_y	1.4018e+02	2.6489e+00	range for y axes [nm] (derived)
+dLx0		0.0000e+00	0.0000e+00	x shift of lower left corner (asked for)[nm]
+dLy0		0.0000e+00	0.0000e+00	y shift of lower left corner (asked for) [nm]
+dLx		0.0000e+00	0.0000e+00	x shift of lower left corner (final) [nm] (derived)
+dLy		0.0000e+00	0.0000e+00	y shift of lower left corner (final) [nm] (derived)
+dim_x		5.6000e+01	5.6000e+01	number of grid points on x axis plus 1 (derived)
+dim_y		4.6000e+01	4.6000e+01	number of grid points on y axis plus 1 (derived)
+dim		0.0000e+00	0.0000e+00	resolution (derived)
+N		1.0000e+00	1.0000e+00	number of steps in Richardson extrapolation
+dimstep		1.0000e+00	1.0000e+00	step in Richardson
+precision	3.0000e+00	3.0000e+00	precision of differential operators
+peierls		1.0000e+00	1.0000e+00	are operators symmetrized by Peierls phase?
+eig		2.0000e+01	2.0000e+01	number of eigenstates to get
+eigmax		4.0000e+01	4.0000e+01	maximal number of states in sorting routines
+geometry	0.0000e+00	0.0000e+00	(0/1/2/3 = 2D/1D ring/flat/waveguide)
+leads		0.0000e+00	0.0000e+00	how to treat leads include(# of)/exclude/ignore (>0,0,-1)
+threshold	8.0000e-01	8.0000e-01	threshold in assigning parity (allowed unprecision)
+sorting_method	0.0000e+00	0.0000e+00	sorting method for 1e states (0 no sorting; 1 I; 2 Ix,Iy; 3 lz; 4 distance; 5 FD states; *-1 spin)
+eig2e		4.0000e+00	4.0000e+00	number of two electron eigenvectors
+selected2e	1.0000e+01	1.0000e+01	number of single electron states to build 2e basis
+wg_extent	0.0000e+00	0.0000e+00	extent of the waveguide
+CE_exp		2.0000e+01	2.0000e+01	expansion in the Fourier Transforms (zero padding)
+Ix		4.0000e+00	4.0000e+00	what to integrate in spectral density (0-3 for debug, 4-default)
+sets		4.0000e+00	4.0000e+00	number of copies (=2S+1) where S is spin
+system		6.5000e+01	6.5000e+01	system: g/A/S graphene/GaAs/Silicon
+
+
+creating region...starting with region...
+graphene: Nw_plaq=1860, Nw_g=3720, sets/2=2, g_length=7440
+prepared for work...
+allocating space...creating arpack...starting arpack with input: dim=7836, eig=20, tol=-1.000000e-12, max_iter=100000, eigenvecs=1, which=SM ncv=0
+arpack arrays allocated with: nev=20, ncv=50, ldv=7836, lworkl=7750, ldz=7836, HowMny=A
+building hamiltonian...
+z-coordinate mat-element [0,0]=0.000000e+00+0.000000e+00i
+z-coordinate mat-element [0,1]=7.071068e-01+0.000000e+00i
+z-coordinate mat-element [1,0]=7.071068e-01+0.000000e+00i
+z-coordinate mat-element [1,1]=0.000000e+00+0.000000e+00i
+expanded z-coordinate mat-element [0,0]=0.000000e+00+0.000000e+00i
+expanded z-coordinate mat-element [0,1]=0.000000e+00+0.000000e+00i
+expanded z-coordinate mat-element [0,2]=7.071068e-01+0.000000e+00i
+expanded z-coordinate mat-element [0,3]=0.000000e+00+0.000000e+00i
+expanded z-coordinate mat-element [1,0]=0.000000e+00+0.000000e+00i
+expanded z-coordinate mat-element [1,1]=0.000000e+00+0.000000e+00i
+expanded z-coordinate mat-element [1,2]=0.000000e+00+0.000000e+00i
+expanded z-coordinate mat-element [1,3]=7.071068e-01+0.000000e+00i
+expanded z-coordinate mat-element [2,0]=7.071068e-01+0.000000e+00i
+expanded z-coordinate mat-element [2,1]=0.000000e+00+0.000000e+00i
+expanded z-coordinate mat-element [2,2]=0.000000e+00+0.000000e+00i
+expanded z-coordinate mat-element [2,3]=0.000000e+00+0.000000e+00i
+expanded z-coordinate mat-element [3,0]=0.000000e+00+0.000000e+00i
+expanded z-coordinate mat-element [3,1]=7.071068e-01+0.000000e+00i
+expanded z

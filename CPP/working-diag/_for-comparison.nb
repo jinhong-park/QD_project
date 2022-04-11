@@ -1,0 +1,109 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3240,         99]
+NotebookOptionsPosition[      2915,         82]
+NotebookOutlinePosition[      3270,         98]
+CellTagsIndexPosition[      3227,         95]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Eigensystem", "[", 
+  RowBox[{"N", "[", 
+   RowBox[{"(", "\[NoBreak]", GridBox[{
+      {"1", "I", "I"},
+      {"I", "1", 
+       RowBox[{"2", "I"}]},
+      {
+       RowBox[{"1", "+", "I"}], 
+       RowBox[{"1", "+", 
+        RowBox[{"2", "I"}]}], "3"}
+     }], "\[NoBreak]", ")"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7012384317613487`*^9, 3.701238488400282*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"2.508244524358944`", "\[VeryThinSpace]", "+", 
+      RowBox[{"2.5665097678225903`", " ", "\[ImaginaryI]"}]}], ",", 
+     RowBox[{"1.463116059584768`", "\[VeryThinSpace]", "-", 
+      RowBox[{"1.8353597940338933`", " ", "\[ImaginaryI]"}]}], ",", 
+     RowBox[{"1.028639416056287`", "\[VeryThinSpace]", "-", 
+      RowBox[{"0.7311499737886961`", " ", "\[ImaginaryI]"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"0.2682857001257526`", "\[VeryThinSpace]", "+", 
+        RowBox[{"0.3038814269404116`", " ", "\[ImaginaryI]"}]}], ",", 
+       RowBox[{"0.4371065128720909`", "\[VeryThinSpace]", "+", 
+        RowBox[{"0.3752742123239611`", " ", "\[ImaginaryI]"}]}], ",", 
+       RowBox[{"0.7097788553050343`", "\[VeryThinSpace]", "+", 
+        RowBox[{"0.`", " ", "\[ImaginaryI]"}]}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "0.0009583096894864862`"}], "+", 
+        RowBox[{"0.12379766853843077`", " ", "\[ImaginaryI]"}]}], ",", 
+       RowBox[{"0.712005628575792`", "\[VeryThinSpace]", "+", 
+        RowBox[{"0.`", " ", "\[ImaginaryI]"}]}], ",", 
+       RowBox[{
+        RowBox[{"-", "0.6529140970621757`"}], "-", 
+        RowBox[{"0.22676945482331343`", " ", "\[ImaginaryI]"}]}]}], "}"}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"0.8870921400078202`", "\[VeryThinSpace]", "+", 
+        RowBox[{"0.`", " ", "\[ImaginaryI]"}]}], ",", 
+       RowBox[{
+        RowBox[{"-", "0.32214014677405656`"}], "-", 
+        RowBox[{"0.047316472559847195`", " ", "\[ImaginaryI]"}]}], ",", 
+       RowBox[{
+        RowBox[{"-", "0.32645724814081967`"}], "+", 
+        RowBox[{"0.021910671681900584`", " ", "\[ImaginaryI]"}]}]}], "}"}]}], 
+    "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.701238476747521*^9, 3.701238488960998*^9}}]
+}, Open  ]]
+},
+WindowSize->{462, 613},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 397, 12, 63, "Input"],
+Cell[979, 36, 1920, 43, 189, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

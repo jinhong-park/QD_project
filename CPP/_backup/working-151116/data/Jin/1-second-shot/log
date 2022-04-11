@@ -1,0 +1,218 @@
+file(0): data/Jin/1-second-shot/energies was opened
+file(1): data/Jin/1-second-shot/g-factor was opened
+file(2): data/Jin/1-second-shot/parameters was opened
+apart from spatial 1 degree(s) of freedom considered: spin . The system tag is 'A' and number of components is 2.
+deallocating sorting class (allocated:0)
+allocating and initializing sorting class:
+20 unsorted states will be sorted to 40 positions
+parameters set: p1=0.000000, p2=0.000000
+apart from spatial 1 degree(s) of freedom considered: spin . The system tag is 'A' and number of components is 2.
+reading parameters...apart from spatial 1 degree(s) of freedom considered: spin . The system tag is 'A' and number of components is 2.
+
+
+chosen parameters:
+physical parameters:
+tag		value		dimensionless	unit	description
+B		1.0000e+00	4.2544e+00	Tesla	strenght of magnetic field
+phi_B		0.0000e+00	0.0000e+00	pi	direction of magnetic field: angle phi
+theta_B		5.0000e-01	1.5708e+00	pi	direction of magnetic field: angle theta
+gx		-3.8000e-01	-9.5000e-02	-	g-factor along x
+gy		-3.8000e-01	-9.5000e-02	-	g-factor along y
+gz		-3.8000e-01	-9.5000e-02	-	g-factor along z
+lv		2.6159e+01	4.9432e-01	nm	confining length
+lB		2.6159e+01	4.9432e-01	nm	effective length (derived)
+growth		1.0000e+00	1.0000e+00	-	growth direction
+br		3.3000e+00	2.2917e-01	meVA	strength of Bychkov-Rashba
+lbr		1.7232e+03	3.2564e+01	nm	spin orbit length (BR) (derived)
+dress		4.5000e+00	3.1251e-01	meVA	strength of linear Dresselhaus
+ldress		1.2637e+03	2.3880e+01	nm	spin orbit length (D) (derived)
+dress3		1.1000e+01	2.7280e-03	eVA^3	strength of cubic Dresselhaus
+d		4.0051e+00	7.5686e-02	nm	interdot distance
+d_x		0.0000e+00	0.0000e+00	nm	interdot distance along x (derived)
+d_y		0.0000e+00	0.0000e+00	nm	interdot distance along y (derived)
+phi_d		0.0000e+00	0.0000e+00	pi	interdot orientation: angle phi
+width_z		1.1000e+01	2.0787e-01	nm	width of the well (relaxation)
+T		0.0000e+00	0.0000e+00	K	temperature (relaxation) do not use - is always zero
+Bosc		0.0000e+00	0.0000e+00	Tesla	strength of oscillating magnetic field
+phi_Bosc	0.0000e+00	0.0000e+00	pi	orientation of oscillating magnetic field: angle phi
+theta_Bosc	0.0000e+00	0.0000e+00	pi	orientation of oscillating magnetic field: angle theta
+Eosc		0.0000e+00	0.0000e+00	V/m	strength of oscillating electic field
+phi_Eosc	0.0000e+00	0.0000e+00	pi	orientation of oscillating electric field: angle phi
+ring		0.0000e+00	0.0000e+00	nm	ring radius
+eps0		1.2900e+01	1.2900e+01	-	static dielectric constant
+density		5.3000e+03	8.6216e+11	kg/m3	material density
+cl		5.2900e+03	2.4181e+00	m/s	longitudinal sound velocity
+ct		2.4800e+03	1.1336e+00	m/s	transversal sound velocity
+def		7.0000e+00	2.5725e+05	eV	deformation potential
+piezo		1.4000e+09	5.1449e+13	eV/m	piezoelectric potential
+flat_x		0.0000e+00	0.0000e+00	nm	region extent along x (from -value to value) if geometry==2
+flat_y		0.0000e+00	0.0000e+00	nm	region extent along y (from -value to value) if geometry==2
+exch		0.0000e+00	0.0000e+00	meV	coupling to impurity spins = beta * N_0
+xMn		0.0000e+00	0.0000e+00	-	impurity spins concentration
+ALHO		1.0000e+00	1.0000e+00	-	anisotropic LHO potential? (y/n=1/0)
+nuclear_state	0.0000e+00	0.0000e+00	-	type of nuclear ensemble for 1e diag
+fermi_e		0.0000e+00	0.0000e+00	meV	fermi energy
+Ebias		0.0000e+00	0.0000e+00	V/m	additional potential bias electric field
+m_eff		6.7000e-02	6.7000e-02	m_e	effective mass
+imp_ext		0.0000e+00	0.0000e+00	nm	impurities: extent
+imp_str		0.0000e+00	0.0000e+00	meV	impurities: strength
+imp_num		0.0000e+00	0.0000e+00	-	impurities: number
+wg_x		0.0000e+00	0.0000e+00	nm	waveguide shift x
+wg_y		0.0000e+00	0.0000e+00	nm	waveguide shift y
+wg_width	0.0000e+00	0.0000e+00	nm	waveguide width
+wg_phi		0.0000e+00	0.0000e+00	pi	waveguide azimuth (heading out)
+wg_V		0.0000e+00	0.0000e+00	meV	barrier height
+wg_length	0.0000e+00	0.0000e+00	nm	barrier length
+dot_offset	0.0000e+00	0.0000e+00	meV	potential offset of the dot wrt the lead
+def2		0.0000e+00	0.0000e+00	eV	deformation shear transversal phonon potential
+vf		0.0000e+00	0.0000e+00	m/s	fermi velocity in graphene
+Dg		0.0000e+00	0.0000e+00	meV	graphene gap
+Di		0.0000e+00	0.0000e+00	meV	graphene intrinsic soc
+Dr		0.0000e+00	0.0000e+00	meV	graphene rashba soc
+gr_dd		0.0000e+00	0.0000e+00	nm	graphene mass dd
+gr_w		0.0000e+00	0.0000e+00	nm	graphene mass w
+gr_r0		0.0000e+00	0.0000e+00	nm	graphene mass r0
+gr_V0		0.0000e+00	0.0000e+00	meV	graphene mass V0
+gr_U		0.0000e+00	0.0000e+00	meV	graphene potential U
+pairing		0.0000e+00	0.0000e+00	meV	pairing gap Delta0
+
+computational parameters:
+tag		value		dimensionless	description
+extent		5.0000e+00	5.0000e+00	expand region [lB]
+grid_step	2.0000e-01	2.0000e-01	grid step [lB]
+length_x	1.5172e+02	2.8671e+00	range for x axis [nm] (derived)
+length_y	1.1510e+02	2.1750e+00	range for y axes [nm] (derived)
+dLx0		0.0000e+00	0.0000e+00	x shift of lower left corner (asked for)[nm]
+dLy0		0.0000e+00	0.0000e+00	y shift of lower left corner (asked for) [nm]
+dLx		0.0000e+00	0.0000e+00	x shift of lower left corner (final) [nm] (derived)
+dLy		0.0000e+00	0.0000e+00	y shift of lower left corner (final) [nm] (derived)
+dim_x		5.8000e+01	5.8000e+01	number of grid points on x axis plus 1 (derived)
+dim_y		4.4000e+01	4.4000e+01	number of grid points on y axis plus 1 (derived)
+dim		0.0000e+00	0.0000e+00	resolution (derived)
+N		1.0000e+00	1.0000e+00	number of steps in Richardson extrapolation
+dimstep		1.0000e+00	1.0000e+00	step in Richardson
+precision	3.0000e+00	3.0000e+00	precision of differential operators
+peierls		1.0000e+00	1.0000e+00	are operators symmetrized by Peierls phase?
+eig		2.0000e+01	2.0000e+01	number of eigenstates to get
+eigmax		4.0000e+01	4.0000e+01	maximal number of states in sorting routines
+geometry	0.0000e+00	0.0000e+00	(0/1/2/3 = 2D/1D ring/flat/waveguide)
+leads		0.0000e+00	0.0000e+00	how to treat leads include(# of)/exclude/ignore (>0,0,-1)
+threshold	8.0000e-01	8.0000e-01	threshold in assigning parity (allowed unprecision)
+sorting_method	-4.0000e+00	-4.0000e+00	sorting method for 1e states (0 no sorting; 1 I; 2 Ix,Iy; 3 lz; 4 distance; 5 FD states; *-1 spin)
+eig2e		4.0000e+00	4.0000e+00	number of two electron eigenvectors
+selected2e	1.0000e+01	1.0000e+01	number of single electron states to build 2e basis
+wg_extent	0.0000e+00	0.0000e+00	extent of the waveguide
+CE_exp		2.0000e+01	2.0000e+01	expansion in the Fourier Transforms (zero padding)
+Ix		4.0000e+00	4.0000e+00	what to integrate in spectral density (0-3 for debug, 4-default)
+sets		2.0000e+00	2.0000e+00	number of copies (=2S+1) where S is spin
+system		6.5000e+01	6.5000e+01	system: g/A/S graphene/GaAs/Silicon
+
+
+creating region...starting with region...
+graphene: Nw_plaq=1868, Nw_g=3736, sets/2=1, g_length=3736
+prepared for work...
+allocating space...creating arpack...starting arpack with input: dim=3934, eig=20, tol=-1.000000e-12, max_iter=100000, eigenvecs=1, which=SM ncv=0
+arpack arrays allocated with: nev=20, ncv=50, ldv=3934, lworkl=7750, ldz=3934, HowMny=A
+building hamiltonian...
+timings & performance in arpack_zn routine:
+(1) dimension of the vector,
+times: (2)main routine ..aupd, (3) postprocessing routine ..eupd
+     (4) user provided matrix multiplication, (5) checking the validity
+perfomance: (6) # of Arnoldi iterations, (7) # of matrix OP*x multiplications, (8) # of reorthogonalizations (9) # of converged values
+    dim    main   after  user   check   iter   opx    reort converged
+  3934   1179     14   1415     48     32    779    779     20 
+presorting...creating state_info...done
+all have definite parity:1
+deciding whether to sort...0
+##.   lz[hbar]       Ix[-]       Iy[-]        I[-]   s[hbar/2]  energy[meV]  
+ 0.sorted (+0. unsorted) lz[hbar]=-7.13709961356473e-17 Ix[-]=+9.99790288092284e-01 Iy[-]=+9.99879799000406e-01 I[-]=+9.99670109623225e-01 s[hbar/2]=+9.99849177864864e-01 energy[meV]=+1.71873639166850e+00 
+ 1.sorted (+1. unsorted) lz[hbar]=-1.87282372769715e-16 Ix[-]=+9.99784896769315e-01 Iy[-]=+9.99876677970422e-01 I[-]=+9.99661597901937e-01 s[hbar/2]=-9.99840664534664e-01 energy[meV]=+1.74072883018245e+00 
+ 2.sorted (+2. unsorted) lz[hbar]=+8.39003074914330e-15 Ix[-]=-9.99365490217236e-01 Iy[-]=+9.99883901111036e-01 I[-]=-9.99249490719579e-01 s[hbar/2]=+9.99700026823431e-01 energy[meV]=+2.96874255722940e+00 
+ 3.sorted (+3. unsorted) lz[hbar]=+2.09657459579113e-14 Ix[-]=-9.99360103122375e-01 Iy[-]=+9.99880946111455e-01 I[-]=-9.99241151941962e-01 s[hbar/2]=-9.99691680420107e-01 energy[meV]=+2.99073171894341e+00 
+ 4.sorted (+4. unsorted) lz[hbar]=-6.22589545022645e-15 Ix[-]=+9.99803153867669e-01 Iy[-]=-9.99634829449793e-01 I[-]=-9.99438074253586e-01 s[hbar/2]=+9.99690867178927e-01 energy[meV]=+3.92874514585839e+00 
+ 5.sorted (+5. unsorted) lz[hbar]=-2.21500606484987e-14 Ix[-]=+9.99797765123333e-01 Iy[-]=-9.99631199150806e-01 I[-]=-9.99429053746701e-01 s[hbar/2]=-9.99681847245298e-01 energy[meV]=+3.95073409773569e+00 
+ 6.sorted (+6. unsorted) lz[hbar]=+4.03985926742539e-15 Ix[-]=+9.98940782349945e-01 Iy[-]=+9.99885925190157e-01 I[-]=+9.98826880025235e-01 s[hbar/2]=+9.99548865869589e-01 energy[meV]=+4.21874887498378e+00 
+ 7.sorted (+7. unsorted) lz[hbar]=+1.54460862503147e-15 Ix[-]=+9.98935399088493e-01 Iy[-]=+9.99883645554761e-01 I[-]=+9.98819223750305e-01 s[hbar/2]=-9.99541197035369e-01 energy[meV]=+4.24073472173217e+00 
+ 8.sorted (+8. unsorted) lz[hbar]=-4.55400149014518e-15 Ix[-]=-9.99404050156213e-01 Iy[-]=-9.99644430047016e-01 I[-]=+9.99048785878679e-01 s[hbar/2]=+9.99547230159617e-01 energy[meV]=+5.17875078665387e+00 
+ 9.sorted (+9. unsorted) lz[hbar]=+2.73853205737251e-15 Ix[-]=-9.99398665118261e-01 Iy[-]=-9.99639938754058e-01 I[-]=+9.99038909538117e-01 s[hbar/2]=-9.99537347479868e-01 energy[meV]=+5.20073657251438e+00 
+10.sorted (+10. unsorted) lz[hbar]=-4.56497903714159e-15 Ix[-]=-9.98516178106252e-01 Iy[-]=+9.99885871940705e-01 I[-]=-9.98402293670277e-01 s[hbar/2]=+9.99395701383097e-01 energy[meV]=+5.46875719650197e+00 
+11.sorted (+11. unsorted) lz[hbar]=+1.06314154528497e-15 Ix[-]=-9.98510798834395e-01 Iy[-]=+9.99884776764257e-01 I[-]=-9.98395829191255e-01 s[hbar/2]=-9.99389220738417e-01 energy[meV]=+5.49073969025809e+00 
+12.sorted (+12. unsorted) lz[hbar]=-3.91811691598243e-15 Ix[-]=+9.99815344545744e-01 Iy[-]=+9.99389895303729e-01 I[-]=+9.99205385129318e-01 s[hbar/2]=+9.99532594399518e-01 energy[meV]=+6.13875078273270e+00 
+13.sorted (+13. unsorted) lz[hbar]=-6.39841912092321e-16 Ix[-]=+9.99809958039317e-01 Iy[-]=+9.99385754553582e-01 I[-]=+9.99195855222117e-01 s[hbar/2]=-9.99523066427990e-01 energy[meV]=+6.16073624879114e+00 
+14.sorted (+14. unsorted) lz[hbar]=+8.07615422020874e-15 Ix[-]=+9.99005026452110e-01 Iy[-]=-9.99648305099208e-01 I[-]=-9.98653845380012e-01 s[hbar/2]=+9.99397921904197e-01 energy[meV]=+6.42875813215072e+00 
+15.sorted (+15. unsorted) lz[hbar]=+5.70027830276362e-14 Ix[-]=+9.98999644378786e-01 Iy[-]=-9.99643463443833e-01 I[-]=-9.98643625695705e-01 s[hbar/2]=-9.99387689430147e-01 energy[meV]=+6.45074063417831e+00 
+16.sorted (+16. unsorted) lz[hbar]=-1.91307473335067e-15 Ix[-]=+9.98091780430073e-01 Iy[-]=+9.99883746384366e-01 I[-]=+9.97975841403795e-01 s[hbar/2]=+9.99240574087942e-01 energy[meV]=+6.71878494542344e+00 
+17.sorted (+17. unsorted) lz[hbar]=+2.91375539147876e-14 Ix[-]=+9.98086409300236e-01 Iy[-]=+9.99884344233445e-01 I[-]=+9.97971080904419e-01 s[hbar/2]=-9.99235795392447e-01 energy[meV]=+6.74076404908784e+00 
+18.sorted (+18. unsorted) lz[hbar]=-6.41544651604209e-14 Ix[-]=-9.99440588788381e-01 Iy[-]=+9.99405000338904e-01 I[-]=-9.98846060191645e-01 s[hbar/2]=+9.99394477732506e-01 energy[meV]=+7.38875766172970e+00 
+19.sorted (+19. unsorted) lz[hbar]=-6.20455835147193e-14 Ix[-]=-9.99435205658519e-01 Iy[-]=+9.99398971008979e-01 I[-]=-9.98834645027461e-01 s[hbar/2]=-9.99383056857990e-01 energy[meV]=+7.41074007268824e+00 
+
+parameters set: p1=0.000000, p2=10.000000
+apart from spatial 1 degree(s) of freedom considered: spin . The system tag is 'A' and number of components is 2.
+reading parameters...apart from spatial 1 degree(s) of freedom considered: spin . The system tag is 'A' and number of components is 2.
+
+
+chosen parameters:
+physical parameters:
+tag		value		dimensionless	unit	description
+B		1.0000e+00	4.2544e+00	Tesla	strenght of magnetic field
+phi_B		5.5556e-02	1.7453e-01	pi	direction of magnetic field: angle phi
+theta_B		5.0000e-01	1.5708e+00	pi	direction of magnetic field: angle theta
+gx		-3.8000e-01	-9.5000e-02	-	g-factor along x
+gy		-3.8000e-01	-9.5000e-02	-	g-factor along y
+gz		-3.8000e-01	-9.5000e-02	-	g-factor along z
+lv		2.6159e+01	4.9432e-01	nm	confining length
+lB		2.6159e+01	4.9432e-01	nm	effective length (derived)
+growth		1.0000e+00	1.0000e+00	-	growth direction
+br		3.3000e+00	2.2917e-01	meVA	strength of Bychkov-Rashba
+lbr		1.7232e+03	3.2564e+01	nm	spin orbit length (BR) (derived)
+dress		4.5000e+00	3.1251e-01	meVA	strength of linear Dresselhaus
+ldress		1.2637e+03	2.3880e+01	nm	spin orbit length (D) (derived)
+dress3		1.1000e+01	2.7280e-03	eVA^3	strength of cubic Dresselhaus
+d		4.0051e+00	7.5686e-02	nm	interdot distance
+d_x		0.0000e+00	0.0000e+00	nm	interdot distance along x (derived)
+d_y		0.0000e+00	0.0000e+00	nm	interdot distance along y (derived)
+phi_d		0.0000e+00	0.0000e+00	pi	interdot orientation: angle phi
+width_z		1.1000e+01	2.0787e-01	nm	width of the well (relaxation)
+T		0.0000e+00	0.0000e+00	K	temperature (relaxation) do not use - is always zero
+Bosc		0.0000e+00	0.0000e+00	Tesla	strength of oscillating magnetic field
+phi_Bosc	0.0000e+00	0.0000e+00	pi	orientation of oscillating magnetic field: angle phi
+theta_Bosc	0.0000e+00	0.0000e+00	pi	orientation of oscillating magnetic field: angle theta
+Eosc		0.0000e+00	0.0000e+00	V/m	strength of oscillating electic field
+phi_Eosc	0.0000e+00	0.0000e+00	pi	orientation of oscillating electric field: angle phi
+ring		0.0000e+00	0.0000e+00	nm	ring radius
+eps0		1.2900e+01	1.2900e+01	-	static dielectric constant
+density		5.3000e+03	8.6216e+11	kg/m3	material density
+cl		5.2900e+03	2.4181e+00	m/s	longitudinal sound velocity
+ct		2.4800e+03	1.1336e+00	m/s	transversal sound velocity
+def		7.0000e+00	2.5725e+05	eV	deformation potential
+piezo		1.4000e+09	5.1449e+13	eV/m	piezoelectric potential
+flat_x		0.0000e+00	0.0000e+00	nm	region extent along x (from -value to value) if geometry==2
+flat_y		0.0000e+00	0.0000e+00	nm	region extent along y (from -value to value) if geometry==2
+exch		0.0000e+00	0.0000e+00	meV	coupling to impurity spins = beta * N_0
+xMn		0.0000e+00	0.0000e+00	-	impurity spins concentration
+ALHO		1.0000e+00	1.0000e+00	-	anisotropic LHO potential? (y/n=1/0)
+nuclear_state	0.0000e+00	0.0000e+00	-	type of nuclear ensemble for 1e diag
+fermi_e		0.0000e+00	0.0000e+00	meV	fermi energy
+Ebias		0.0000e+00	0.0000e+00	V/m	additional potential bias electric field
+m_eff		6.7000e-02	6.7000e-02	m_e	effective mass
+imp_ext		0.0000e+00	0.0000e+00	nm	impurities: extent
+imp_str		0.0000e+00	0.0000e+00	meV	impurities: strength
+imp_num		0.0000e+00	0.0000e+00	-	impurities: number
+wg_x		0.0000e+00	0.0000e+00	nm	waveguide shift x
+wg_y		0.0000e+00	0.0000e+00	nm	waveguide shift y
+wg_width	0.0000e+00	0.0000e+00	nm	waveguide width
+wg_phi		0.0000e+00	0.0000e+00	pi	waveguide azimuth (heading out)
+wg_V		0.0000e+00	0.0000e+00	meV	barrier height
+wg_length	0.0000e+00	0.0000e+00	nm	barrier length
+dot_offset	0.0000e+00	0.0000e+00	meV	potential offset of the dot wrt the lead
+def2		0.0000e+00	0.0000e+00	eV	deformation shear transversal phonon potential
+vf		0.0000e+00	0.0000e+00	m/s	fermi velocity in graphene
+Dg		0.0000e+00	0.0000e+00	meV	graphene gap
+Di		0.0000e+00	0.0000e+00	meV	graphene intrinsic soc
+Dr		0.0000e+00	0.0000e+00	meV	graphene rashba soc
+gr_dd		0.0000e+00	0.0000e+00	nm	graphene mass dd
+gr_w		0.0000e+00	0.0000e+00	nm	graphene mass w
+gr_r0		0.0000e+00	0.0000e+00	nm	graphene mass r0
+gr_V0		0.0000e+00	0.0000e+00	meV	graphene mass V0
+gr_U		0.0000e+00	0.0000e+00	meV	graphene potential U
+pairing		0.0000e+00	0.0000e

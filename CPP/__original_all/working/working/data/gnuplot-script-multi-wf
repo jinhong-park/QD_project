@@ -1,0 +1,38 @@
+
+#input parameters
+
+#file with source data
+SOURCE = 'plottedA'
+
+#cut the file
+set macros
+print "lines / input file:"
+STR="wc -l \"./".SOURCE."\" "
+! @STR
+
+#eigenstate index
+EIG=0
+#number of components
+DOF=2
+
+#settings common to all figures 
+set noxtics
+set noytics
+set noztics
+set nokey
+#set view 30,30,1
+set pm3d
+set hidden3d
+
+#set bmargin 1
+#set lmargin 0
+#set rmargin 0
+#set tmargin 0
+
+#start the loop
+load "./gnuplot-script-loop-wf"
+
+
+
+
+

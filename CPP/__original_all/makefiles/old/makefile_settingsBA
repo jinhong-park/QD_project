@@ -1,0 +1,41 @@
+HOME=/Users/peter/Xfiles
+WORKING=$(HOME)/CPP
+
+VLASTNE=$(WORKING)/my_routines
+VLASTNEL=$(VLASTNE)/auxiliaries.a
+NUMREC=$(WORKING)
+NUMRECL=$(NUMREC)
+ARPACK=$(WORKING)/arpack
+#ARPACKL=$(ARPACK)/arpack.a
+ARPACKL=$(ARPACK)/arpack.a /Users/peter/Downloads/ARPACK/libarpack_MAC.a
+FFTW=$(HOME)
+FFTWL=$(HOME)
+GSL=$(HOME)
+GSLL=$(HOME)
+
+MPI=/opt/mpich
+MPIH=$(MPI)/include
+
+
+
+.SUFFIXES:	
+
+CPPCOMPILER=g++ -m64
+CF= -c -Wall -Wno-unused
+F77COMPILER=gfortran
+F77F= -c
+DEBUG0= -O3
+DEBUG1= -ggdb
+PROFILE1= -pg
+PROFILE0=
+AR=ar
+ARF=r
+
+PROFILE=$(PROFILE0)
+DEBUG=$(DEBUG0)
+
+CPPCOMPILEFLAGS=$(CF) $(DEBUG) $(PROFILE)
+#CPPLINKFLAGS=$(PROFILE) -larpack -lgsl -lgslcblas -lfftw3 -lblas -llapack -lm
+CPPLINKFLAGS=$(PROFILE) -lgsl -lgslcblas -lfftw3 -lblas -llapack -lm -lgfortran
+F77COMPILEFLAGS=$(F77F) $(DEBUG) $(PROFILE)
+F77LINKFLAGS=$(PROFILE)

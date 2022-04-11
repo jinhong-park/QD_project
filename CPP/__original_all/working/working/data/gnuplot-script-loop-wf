@@ -1,0 +1,32 @@
+#unset pm3d
+#unset dgrid3d
+#set surface
+set multiplot layout 2,DOF title "Eigenstate #".EIG
+
+INDX=EIG*DOF
+
+set title "sigma=0, real"
+spl SOURCE index INDX u 1:2:3
+
+set title "sigma=0, imag"
+spl SOURCE index INDX u 1:2:4
+
+INDX=INDX+1
+
+set title "sigma=1, real"
+spl SOURCE index INDX u 1:2:3
+
+set title "sigma=1, imag"
+spl SOURCE index INDX u 1:2:4
+
+unset multiplot
+
+pause -1
+EIG=EIG+1
+reread
+
+
+
+
+
+

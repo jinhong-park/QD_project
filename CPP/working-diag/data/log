@@ -1,0 +1,2 @@
+lapack zgee class allocated with N=3, lwork=6 (max of zgees=6 zgeev=6)
+lapack zgee l/r-eigensystems exact with precisions 7.409678e-15/7.408153e-15

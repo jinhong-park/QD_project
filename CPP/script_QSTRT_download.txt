@@ -1,0 +1,3 @@
+cp -f /Volumes/Data/codePS/arpack/* arpack/
+cp -f /Volumes/Data/codePS/working/* working/
+cp -f /Volumes/Data/codePS/my_routines/* my_routines/

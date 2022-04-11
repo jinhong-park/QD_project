@@ -1,9 +1,11 @@
 #desktop MAC
-#HOME:=$(shell cd ..;pwd)
-HOME=/Users/parkjinhong/Dropbox
+#HOME:=../$(shell pwd)
+#WORKING:=$(shell pwd)
+
+HOME=/Users/parkjinhong/Dropbox/github/QD_project
 WORKING=$(HOME)/CPP
 
-#WORKING:=$(shell pwd)
+
 
 VLASTNE=$(WORKING)/my_routines
 VLASTNEL=$(VLASTNE)/auxiliaries.a
